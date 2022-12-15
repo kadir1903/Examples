@@ -1,20 +1,31 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.tr0 {
+  background-color: brown;
+  width: 100%;
 }
-body {
-  font-family: "Roboto", sans-serif;
+.tr1 {
+  background-color: rgb(120, 116, 121);
 }
-form {
-  text-align: center;
-  background-color: lightgreen;
-  padding: 20px;
-  width: fit-content;
-  margin: auto;
+.tr1:hover {
+  background-color: aqua;
 }
-label {
+.tr2 {
+  background-color: darkcyan;
+}
+.tr2:hover {
+  background-color: rgb(49, 224, 166);
+}
+.div1 {
+  text-align: right;
+}
+.a1 {
   display: inline-block;
-  width: 110px;
-  text-align: left;
+  background-color: darkgray;
+  text-decoration: none;
+  padding: 5px;
+  margin: 10px 25px;
+  color: brown;
+}
+.a1:hover {
+  color: rgb(255, 149, 0);
+  background-color: rgb(23, 226, 97);
 }
