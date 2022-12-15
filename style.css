@@ -1,34 +1,20 @@
 * {
-  /* Universal selector */
-  background-color: azure;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-/* override -> ezme */
-/* body {
-  background-color: antiquewhite;
-} */
-
-h1 {
-  color: red;
+body {
+  font-family: "Roboto", sans-serif;
 }
-
-h1:hover {
-  /*! Saydamlik katsayisi */
-  opacity: 0.5;
-  cursor: pointer;
+form {
+  text-align: center;
+  background-color: lightgreen;
+  padding: 20px;
+  width: fit-content;
+  margin: auto;
 }
-
-li {
-  list-style-type: none;
-  color: blueviolet;
-}
-
-
-li:hover {
-  color: purple;
-  font-weight: 800;
-  cursor: pointer;
-}
-.list {
-  border: 1px solid red;
+label {
+  display: inline-block;
+  width: 110px;
+  text-align: left;
 }

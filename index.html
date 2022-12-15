@@ -4,19 +4,51 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>External</title>
-    <!-- Harici CSS dosyamiza link verdik -->
-    <link rel="stylesheet" href="2-external.css" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>External CSS</h1>
+    <h1>LOGIN PAGE</h1>
 
-    <ul class="list">
-      <li>Home</li>
-      <li>About</li>
-      <li>People</li>
-      <li>Courses</li>
-      <li>Contact</li>
-    </ul>
+    <form action="">
+      <div>
+        <label for="username">username:</label>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          placeholder="Enter your username"
+        />
+      </div>
+
+      <div>
+        <label for="password">password:</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Enter your pass"
+        />
+      </div>
+      <div>
+        <label for="sec-code">Security Code:</label>
+        <input
+          type="number"
+          id="sec-code"
+          name="sec-code"
+          placeholder="Enter Security Code"
+        />
+      </div>
+      <div>
+        <input type="submit" value="save" />
+        <input type="reset" value="clear" />
+      </div>
+    </form>
   </body>
 </html>
