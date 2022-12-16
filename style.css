@@ -1,31 +1,39 @@
-.tr0 {
-  background-color: brown;
-  width: 100%;
+body {
+  background-image: url(https://cdn.pixabay.com/photo/2022/11/24/02/28/clouds-7613361_960_720.png);
+  background-size: cover;
 }
-.tr1 {
-  background-color: rgb(120, 116, 121);
+form {
+  /* background-color: aqua; */
+  width: 25%;
+  margin: auto;
+  text-align: center;
+  background-color: linear-gradient();
+  background-color: #d9afd9;
+  background-image: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
-.tr1:hover {
-  background-color: aqua;
+
+div {
+  padding: 10px 10px;
+  margin: auto;
 }
-.tr2 {
-  background-color: darkcyan;
-}
-.tr2:hover {
-  background-color: rgb(49, 224, 166);
-}
-.div1 {
-  text-align: right;
-}
-.a1 {
+label {
   display: inline-block;
-  background-color: darkgray;
-  text-decoration: none;
-  padding: 5px;
-  margin: 10px 25px;
-  color: brown;
+  width: 120px;
+  text-align: center;
 }
-.a1:hover {
-  color: rgb(255, 149, 0);
-  background-color: rgb(23, 226, 97);
+button {
+  padding: 5px;
+  margin-left: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+input {
+  padding: 5px 0px;
+  border-radius: 10px;
+  text-align: center;
+}
+h1 {
+  text-align: center;
 }
