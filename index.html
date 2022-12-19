@@ -5,67 +5,134 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;800;900&family=Roboto:ital,wght@1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
-    <table width="100%">
-      <thead>
-        <tr>
-          <th colspan="7" style="background-color: #4472c3; color: white">
-            Zaman Çizelgesi
-          </th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr align="center" style="background-color: #ced4ea">
-          <td align="left">Günler</td>
-          <td></td>
-          <td>Ptesi</td>
-          <td>Salı</td>
-          <td>Çars</td>
-          <td>Perş</td>
-          <td>Cuma</td>
-        </tr>
-        <tr style="background-color: #ced0d6">
-          <td rowspan="6">Saatler</td>
-        </tr>
-        <tr align="center" style="background-color: #ced0d6">
-          <td>1</td>
-          <td>Türkçe</td>
-          <td>Mat</td>
-          <td>Türkçe</td>
-          <td>Mat</td>
-          <td>Fen</td>
-        </tr>
-        <tr style="background-color: #ced4ea" align="center">
-          <!-- <td></td> -->
-          <td>2</td>
-          <td>Türkçe</td>
-          <td>Mat</td>
-          <td>Türkçe</td>
-          <td>Mat</td>
-          <td>Fen</td>
-        </tr>
-        <tr style="background-color: #ced0d6">
-          <!-- <td></td> -->
-          <td colspan="6" align="center">DİNLENME</td>
-        </tr>
-        <tr style="background-color: #ced4ea" align="center">
-          <td>3</td>
-          <td>Sosyal</td>
-          <td>Müzik</td>
-          <td>Sosyal</td>
-          <td>Fen</td>
-          <td>Din</td>
-        </tr>
-        <tr style="background-color: #ced0d6" align="center">
-          <td>4</td>
-          <td>Sosyal</td>
-          <td>Müzik</td>
-          <td>Sosyal</td>
-          <td>Fen</td>
-          <td>Din</td>
-        </tr>
-      </tbody>
-    </table>
+    <h1>REGISTER PAGE</h1>
+
+    <form action="">
+      <div>
+        <label for="firstname">first Name:</label>
+        <input
+          class="inputs"
+          type="text"
+          name="firstname"
+          id="firstname"
+          placeholder="Your First Name"
+          required
+        />
+      </div>
+      <div>
+        <label for="lastname">Last Name:</label>
+        <input
+          class="inputs"
+          type="text"
+          name="lastname"
+          id="lastname"
+          placeholder="Your Last Name"
+          required
+        />
+      </div>
+      <div>
+        <label for="email">Email:</label>
+        <input
+          class="inputs"
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Your Email"
+          required
+        />
+      </div>
+      <div>
+        <label for="password">Password:</label>
+        <input
+          class="inputs"
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Your Password"
+          required
+        />
+      </div>
+      <div>
+        <label for="date">Day of Birth:</label>
+        <input
+          class="inputs"
+          type="date"
+          name="date"
+          id="date"
+          required
+          value="2022-12-09"
+          min="1900-01-01"
+          max="2022-12-09"
+        />
+      </div>
+      <div>
+        <label for="Phone">Phone:</label>
+        <input
+          class="inputs"
+          type="tel"
+          name="Phone"
+          id="Phone"
+          placeholder="Your Phone Number"
+          required
+        />
+      </div>
+      <div class="divtext">
+        <label  for="adress">Adress:</label>
+        <textarea class="inputs"
+          name="adress"
+          id="adress"
+          cols="20"
+          rows="5"
+          placeholder="Your Adress"
+          required
+        ></textarea>
+      </div>
+      <div>
+        <label for="count">Country:</label>
+        <select class="inputs" name="count" id="count" required>
+          <option value="">Select Country</option>
+          <option value="Turkey">Turkey</option>
+          <option value="Germany">Germany</option>
+          <option value="USA">USA</option>
+          <option value="UK">UK</option>
+        </select>
+      </div>
+
+      <div class="da1">
+        <label for="gender">Gender:</label>
+        <div class="gender-div">
+          <input type="radio" name="gender" id="male" checked />
+          <label for="male">Male</label>
+          <input type="radio" name="gender" id="female" />
+          <label for="female">Female</label>
+        </div>
+      </div>
+
+      <div class="da1">
+        <label for="">Languages:</label>
+        <div class="lang-div">
+          <input type="checkbox" name="lang" id="english" checked />
+          <label for="english">English</label>
+
+          <input type="checkbox" name="lang" id="turkish" />
+          <label for="turkish">Turkish</label>
+        </div>
+      </div>
+
+      <div class="button">
+        <input type="submit" value="Save" />
+        <input type="reset" value="Clear" />
+      </div>
+    </form>
   </body>
 </html>

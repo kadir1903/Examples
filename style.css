@@ -1,39 +1,68 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
 body {
-  background-image: url(https://cdn.pixabay.com/photo/2022/11/24/02/28/clouds-7613361_960_720.png);
-  background-size: cover;
-}
-form {
-  /* background-color: aqua; */
-  width: 25%;
-  margin: auto;
-  text-align: center;
-  background-color: linear-gradient();
-  background-color: #d9afd9;
-  background-image: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-}
-
-div {
-  padding: 10px 10px;
-  margin: auto;
-}
-label {
-  display: inline-block;
-  width: 120px;
-  text-align: center;
-}
-button {
-  padding: 5px;
-  margin-left: 5px;
-  border-radius: 10px;
-  cursor: pointer;
-}
-input {
-  padding: 5px 0px;
-  border-radius: 10px;
-  text-align: center;
+  font-family: "Raleway", sans-serif;
 }
 h1 {
   text-align: center;
+  margin-top: 20px;
+}
+form {
+  background-color: aqua;
+  width: fit-content;
+  margin: 30px auto;
+  padding: 30px;
+}
+label {
+  display: inline-block;
+  width: 100px;
+}
+.lang-div {
+  display: inline-block;
+}
+.gender-div {
+  display: inline-block;
+}
+.gender-div label {
+  width: auto;
+  margin-right: 20px;
+}
+.lang-div label {
+  width: auto;
+  margin-right: 10px;
+}
+
+.inputs {
+  border-radius: 5px;
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+.da1 {
+  margin-bottom: 20px;
+}
+.button {
+  text-align: center;
+  padding: 0px;
+}
+.button input {
+  width: 100px;
+  border: none;
+  background-color: lightgreen;
+  padding: 10px;
+  border-radius: 10px;
+}
+.button input:hover {
+  background-color: brown;
+  color: cornflowerblue;
+  cursor: pointer;
+  font-weight: 700;
+  padding: 10px;
+}
+.divtext * {
+  vertical-align: middle;
 }
